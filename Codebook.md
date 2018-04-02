@@ -39,19 +39,19 @@
 	1. write.table() with row.names = FALSE is used to write the tidy dataset to "Tidy_data.txt"
 	
 # Variables
-X_test = Data frame containing dataset provided in X_test.txt
-y_test = Data frame containing dataset provided in y_test.txt
-subject_test = Data frame containing dataset provided in subject_test.txt
-X_train = Data frame containing dataset provided in X_train.txt
-y_train = Data frame containing dataset provided in y_train.txt
-subject_train = Data frame containing dataset provided in subject_train.txt
-features = Data frame containing dataset provided in features.txt	
-X_merge = Data frame obtained by merging X_test and X_train.
-y_merge = Data frame obtained by merging y_test and y_train.
-subject_merge = Data frame obtained by merging subject_test and subject_train.
-X_reqd = Data frame containing only those features corresponding to mean and standard deviation for all measurements. In addition it also contains the Subject and Activity columns.
-my_colnames = Character list containing all feature names corresponding to mean and standard deviation for all measurements.
-Data_tidy = Tibble which is the tidy, independent dataset with the average of each variable for each activity and each subject.
+* X_test = Data frame containing dataset provided in X_test.txt
+* y_test = Data frame containing dataset provided in y_test.txt
+* subject_test = Data frame containing dataset provided in subject_test.txt
+* X_train = Data frame containing dataset provided in X_train.txt
+* y_train = Data frame containing dataset provided in y_train.txt
+* subject_train = Data frame containing dataset provided in subject_train.txt
+* features = Data frame containing dataset provided in features.txt	
+* X_merge = Data frame obtained by merging X_test and X_train.
+* y_merge = Data frame obtained by merging y_test and y_train.
+* subject_merge = Data frame obtained by merging subject_test and subject_train.
+* X_reqd = Data frame containing only those features corresponding to mean and standard deviation for all measurements. In addition it also contains the Subject and Activity columns.
+* my_colnames = Character list containing all feature names corresponding to mean and standard deviation for all measurements.
+* Data_tidy = Tibble which is the tidy, independent dataset with the average of each variable for each activity and each subject.
  
 	
 
